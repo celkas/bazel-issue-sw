@@ -1,0 +1,17 @@
+cc_library(
+    name = "funclib",
+    srcs = [
+        "sw/func.c",
+        "sw/func.h",
+    ],
+    hdrs = [],
+    copts = [],
+    defines = [],
+    features = [],
+    includes = [
+        "sw",
+    ],
+    linkstatic = True,
+    visibility = ["//visibility:public"],
+    deps = [],
+)
